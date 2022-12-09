@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import LoginPage from './components/LoginPage'
 import Home from './components/Home'
 import About from './components/About'
 import {HashRouter as Router,Routes,Route} from "react-router-dom";
@@ -8,17 +8,10 @@ import {HashRouter as Router,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
       <div >
-      
-        <Routes>
-          <Route path="/" element={<Home/>}>
-          </Route>
-          <Route path="/about" element={<About/>}>
-          </Route>
-        </Routes>
+        <LoginPage/>
       </div>
-    </Router>
+
      );
 }
 
