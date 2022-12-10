@@ -1,5 +1,5 @@
 import './App.css';
-import VerificatinPage from './components/VerificatinPage'
+import VerificationPage from './components/VerificationPage'
 import Home from './components/Home'
 import About from './components/About'
 import {HashRouter as Router,Routes,Route} from "react-router-dom";
@@ -8,7 +8,7 @@ import {HashRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   return (
       <div >
-        <VerificatinPage/>
+        <VerificationPage/>
       </div>
 
      );
